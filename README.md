@@ -1,75 +1,110 @@
-# React + TypeScript + Vite
+💼 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website! This project showcases my skills, projects, certifications, and professional journey as an aspiring Data Analyst.
 
-Currently, two official plugins are available:
+🌐 **Live Demo ** https://final-endgames.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+📌 About the Project
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This portfolio is designed to present my technical skills, projects, certifications, and contact information in a clean, modern, and responsive interface. It serves as my professional online presence for recruiters, employers, and collaborators.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+✨ Features
+Responsive design for desktop, tablet, and mobile
+Professional landing page
+About Me section
+Skills showcase
+Featured Projects
+Certificates with verification links
+Contact section
+Smooth navigation and animations
+Fast loading and optimized performance
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+🛠️ Tech Stack
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Frontend
 
-```
+React.js
+JavaScript
+Vite
+Tailwind CSS
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+UI & Styling
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+HTML5
+CSS3
+Tailwind CSS
+Responsive Design
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Deployment
 
-```
+Netlify
+
+Version Control
+
+Git
+GitHub
+
+
+📂 Project Structure
+portfolio/
+├── public/
+│   ├── certificates/
+│   ├── profile.png
+│   └── favicon.ico
+│
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│   ├── hooks/
+│   ├── lib/
+│   ├── App.tsx
+│   └── main.tsx
+│
+├── package.json
+├── vite.config.ts
+└── README.md
+
+
+📸 Portfolio Sections
+Home
+About
+Skills
+Projects
+Certifications
+Contact
+
+
+📜 Certifications
+
+This portfolio includes verified certificates from:
+
+Deloitte
+SWAYAM
+Data Analytics Certification
+
+Each certificate can be viewed directly from the portfolio.
+
+
+🎯 Purpose
+
+The goal of this project is to:
+
+Showcase my technical skills
+Highlight my projects and achievements
+Provide recruiters with a central place to view my work
+Build a strong professional online presence
+
+
+🤝 Connect With Me
+
+GitHub: https://github.com/akkumishra1974-coder/portfolio-final
+
+LinkedIn: https://www.linkedin.com/in/akankshamishra2601/
+
+Email: akankshamishra2601@gmail.com
+
+
