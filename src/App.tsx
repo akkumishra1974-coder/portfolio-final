@@ -1,3 +1,4 @@
+import Nav from "./components/portfolio/Nav";
 import About from "./components/portfolio/About";
 import Connect from "./components/portfolio/connect";
 import './App.css';
@@ -5,20 +6,7 @@ import profile from './assets/profile.png';
 function App() {
   return (
     <>
-      <nav className="navbar">
-        <h2>Akanksha</h2>
-        <div>
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#certificates">Certifications</a>
-          <a href="#skills">Skills</a>
-          <a href="#contact">Contact</a>
-        </div>
-        <a className="download-btn" href="/resume.pdf" download>
-          Download CV
-        </a>
-      </nav>
+    <Nav />
 
       <section id="home" className="hero">
         <div className="hero-left">
