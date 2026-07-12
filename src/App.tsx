@@ -26,8 +26,8 @@ function App() {
           <h1>AKANKSHA MISHRA</h1>
           <h2>Aspiring Data Analyst | AI Enthusiast</h2>
           <p>
-            I turn data into meaningful insights and build interactive dashboards
-            that help businesses make smarter decisions.
+            Passionate about transforming raw data into actionable insights,  
+            I enjoy solving business problems through data analysis, visualization, and interactive dashboards that support informed decision-making.
           </p>
 
           <div className="hero-buttons">
