@@ -692,3 +692,55 @@ html {
     border-radius: 8px;
   }
 }
+/* Mobile Responsive */
+@media (max-width: 768px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .hero-left,
+  .hero-right {
+    width: 100%;
+  }
+
+  .hero-right img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .content-card,
+  .projects-grid,
+  .skills-grid,
+  .cert-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .navbar {
+    flex-wrap: wrap;
+    padding: 15px;
+  }
+
+  .navbar div {
+    width: 100%;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .navbar a {
+    display: block;
+    margin: 10px 0;
+  }
+}
