@@ -9,24 +9,36 @@ export default function Nav() {
 
   return (
     <nav className="navbar">
-      <h2>Akanksha Mishra</h2>
+      <div className="nav-left">
+        <button
+          type="button"
+          className="menu-btn"
+          onClick={() => setMenuOpen(!menuOpen)}
+          aria-label="Toggle navigation menu"
+          aria-expanded={menuOpen}
+        >
+          {menuOpen ? "✕" : "☰"}
+        </button>
 
-      <button
-        type="button"
-        className="menu-btn"
-        onClick={() => setMenuOpen(!menuOpen)}
-        aria-label="Open navigation menu"
-      >
-        {menuOpen ? "✕" : "☰"}
-      </button>
+        <h2>Akanksha Mishra</h2>
+      </div>
 
       <div className={menuOpen ? "nav-links active" : "nav-links"}>
-        <a href="#home" onClick={closeMenu}>Home</a>
+        
         <a href="#about" onClick={closeMenu}>About</a>
         <a href="#skills" onClick={closeMenu}>Skills</a>
         <a href="#projects" onClick={closeMenu}>Projects</a>
         <a href="#certifications" onClick={closeMenu}>Certificates</a>
-        <a href="#contact" onClick={closeMenu}>Contact</a>
+    
+
+        <a
+          href="/resume.pdf"
+          download
+          className="mobile-download-btn"
+          onClick={closeMenu}
+        >
+          Download CV
+        </a>
       </div>
     </nav>
   );

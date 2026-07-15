@@ -57,44 +57,105 @@ function App() {
               <img src="/images/finaid.png" className="project-img" />
               <h3>FINAID: AI-DrivenFinancial Advisor</h3>
         <p>
-          Developed an AI-powered Financial Advisor using Python, Machine
-          Learning, Pandas, NumPy, and Matplotlib to provide personalized
-          financial recommendations.
+         Built an AI-powered financial advisor that analyzes income,
+         expenses, and spending behavior to generate personalized budgeting,
+         savings, and investment recommendations.
         </p>
               <div>
                 <span>Python</span>
                 <span>ML</span>
                 <span>Pandas</span>
               </div>
+              <div className="project-actions">
+  <a
+    href="https://finaid-teal.vercel.app/"
+    target="_blank"
+    rel="noreferrer"
+    className="project-btn"
+  >
+    Live Demo
+  </a>
+
+  <a
+    href="https://github.com/akkumishra1974-coder/finaid"
+    target="_blank"
+    rel="noreferrer"
+    className="project-btn secondary-btn"
+  >
+    GitHub Code
+  </a>
+</div>
             </div>
 
             <div className="project-card">
               <img src="/images/customer.png" className="project-img" />
              <h3>Customer Trends Data Analysis</h3>
         <p>
-          Developed a customer trends analysis project using PostgreSQL,
-          Python, and Power BI to analyze customer behavior and visualize
-          insights through interactive dashboards.
+        Analyzed customer purchasing data using PostgreSQL and Python to
+        identify behavioral patterns, sales trends, and customer segments.
+        Created an interactive Power BI dashboard to present actionable
+        business insights.
         </p>
               <div>
                 <span>PostgreSQL</span>
                 <span>Python</span>
                 <span>Power BI</span>
               </div>
+              <div className="project-actions">
+  <a
+    href="YOUR_LIVE_PROJECT_LINK"
+    target="_blank"
+    rel="noreferrer"
+    className="project-btn"
+  >
+    Live Demo
+  </a>
+
+  <a
+    href="https://github.com/akkumishra1974-coder/customer_trend_analysis"
+    target="_blank"
+    rel="noreferrer"
+    className="project-btn secondary-btn"
+  >
+    GitHub Code
+  </a>
+</div>
+
             </div>
 
             <div className="project-card">
               <img src="/images/sorting.png" className="project-img" />
               <h3>Sorting Algorithm Visualizer</h3>
               <p>
-                Developed an interactive Sorting Algorithm Visualizer using JavaScript
-          to demonstrate sorting algorithms through real-time animations.
+             Developed an interactive sorting visualizer that demonstrates
+  Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, and
+  Quick Sort through real-time animations and adjustable controls.
               </p>
               <div>
                 <span>JavaScript</span>
                 <span>CSS</span>
                 <span>HTML</span>
               </div>
+              <div className="project-actions">
+  <a
+    href="https://sorting-algorithm-visualizer-puce.vercel.app/"
+    target="_blank"
+    rel="noreferrer"
+    className="project-btn"
+  >
+    Live Demo
+  </a>
+
+  <a
+    href="https://github.com/akkumishra1974-coder/sorting-algorithm-visualizer"
+    target="_blank"
+    rel="noreferrer"
+    className="project-btn secondary-btn"
+  >
+    GitHub Code
+  </a>
+</div>
+              
             </div>
           </div>
         </div>

@@ -68,6 +68,9 @@
     padding: 32px 20px 24px;
     gap: 18px;
   }
+  .download-btn {
+    display: none;
+  }
 }
 
 #next-steps {
@@ -280,7 +283,7 @@ body {
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 8px 25px rgba(0,0,0,0.08);
-  width: 320px;
+  width: 360px;
 }
 
 .project-img {
@@ -950,5 +953,147 @@ html {
 
   .footer {
     border-radius: 18px;
+  }
+}
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.desktop-download-btn {
+  display: inline-block;
+  background: #6d28d9;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.mobile-download-btn {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    width: calc(100% - 24px);
+    margin: 12px auto;
+    padding: 16px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 8px;
+    z-index: 1000;
+  }
+
+  .nav-left {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .nav-left h2 {
+    margin: 0;
+    font-size: 22px;
+  }
+
+  .menu-btn {
+    display: block;
+    order: -1;
+  }
+
+  .desktop-download-btn {
+    display: none;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 78px;
+    left: 0;
+    width: 260px;
+    padding: 16px;
+    flex-direction: column;
+    gap: 6px;
+    background: white;
+    border-radius: 0 18px 18px 0;
+    box-shadow: 8px 12px 30px rgba(0, 0, 0, 0.15);
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links a {
+    width: 100%;
+    padding: 12px 14px;
+    text-align: left;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+
+  .nav-links a:hover {
+    background: #f3e8ff;
+  }
+
+  .mobile-download-btn {
+    display: block;
+    margin-top: 8px;
+    background: #6d28d9;
+    color: white !important;
+    text-align: center !important;
+    font-weight: 700;
+  }
+}
+.project-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 18px;
+  flex-wrap: wrap;
+}
+
+.project-btn {
+  display: inline-block;
+  padding: 10px 18px;
+  background: #6d28d9;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.project-btn:hover {
+  transform: translateY(-2px);
+}
+
+.secondary-btn {
+  background: white;
+  color: #6d28d9;
+  border: 2px solid #6d28d9;
+}
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card {
+    width: 100%;
+  }
+
+  .project-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .project-actions {
+    flex-direction: column;
+  }
+
+  .project-btn {
+    width: 100%;
+    text-align: center;
   }
 }
