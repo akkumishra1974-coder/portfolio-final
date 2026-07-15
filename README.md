@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio website! This project showcases my skills, projects, certifications, and professional journey as an aspiring Data Analyst.
 
-🌐 **Live Demo ** https://final-endgames.netlify.app/
+🌐 **Live Demo ** https://portfolio-assemble.netlify.app/
 
 
 📌 About the Project
